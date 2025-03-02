@@ -1,3 +1,10 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
 body {
     background-color: hsl(212, 45%, 89%);
     max-height: 100vh;
@@ -5,8 +12,8 @@ body {
 
 
 
-div {
-    margin: 20vh 40%;
+.container {
+    margin: 16vh 40%;
     border-radius: 1rem;
     background-color: aliceblue;
     display: flex;
@@ -15,6 +22,24 @@ div {
 }
 
 img {
-    margin: 1rem;
+    margin: 1rem 1rem 0 1rem;
     border-radius: 1rem;
+}
+
+h2 {
+    text-align: center;
+    margin: 1.5rem;
+    font-size: 1.5rem;
+}
+
+p {
+    text-align: center;
+    text-wrap: wrap;
+    margin: 1rem;
+}
+
+
+.attribution {
+    text-align: center;
+    font-size: .8rem;
 }
